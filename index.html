@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+      <div id="logo-container">
+        <img src="img/logo.svg" alt="Logo de Alura" />
+      </div>
+      <form>
+        <textarea
+          name="input"
+          id="input"
+          placeholder="Ingrese el texto aquí"
+        ></textarea>
+        <div id="submit-container">
+          <div id="info-container">
+            <img src="img/exclamation mark.svg" alt="Exclamation mark" id="exclamation-mark"/>
+            Solo letras minúsculas y sin acentos
+          </div>
+          <div id="buttons-input-container">
+            <input type="submit" value="Encriptar" class="submit blue"/>
+            <input type="submit" value="Desencriptar" class="submit"/>
+          </div>
+        </div>
+      </form>
+      <div id="output-container">
+        <img src="img/Muñeco.svg" alt="Dibujo persona" />
+        <div id="output-text-container">
+          <p id="result">Ningún mensaje fue encontrado</p>
+          <p id="ask-input">Ingresa el texto que desees encriptar o desencriptar</p>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
